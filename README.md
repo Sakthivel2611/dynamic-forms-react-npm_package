@@ -8,7 +8,7 @@ A **highly customizable** and **reusable dynamic form component** for React. It 
 
 ## 📦 NPM Package
 
-🔗 [dynamic-forms-react-npm_package on npm]((https://www.npmjs.com/package/npm-builder-forms))
+🔗 [dynamic-forms-react-npm_package on npm]([https://www.npmjs.com/package/npm-builder-forms])
 
 ```bash
 npm install dynamic-forms-react-npm_package
