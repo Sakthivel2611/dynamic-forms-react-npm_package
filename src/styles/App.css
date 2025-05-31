@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.form-check-label {
+  margin-left: 4px; /* Adjust this value as needed */
+}
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}
+
+.required-label {
+  color: red;
+}

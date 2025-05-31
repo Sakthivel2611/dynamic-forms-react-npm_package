@@ -1,0 +1,291 @@
+{
+  "first_name": {
+    "type": "input_text",
+    "label": "First Name",
+    "placeholder": "First Name",
+    "rules": {
+      "required": true,
+      "min": 3,
+      "max": 30,
+      "datatype": "string"
+    },
+    "lang": {
+      "hindi": {
+        "label": "संतोष",
+        "placeholder": "संतोष"
+      },
+      "malayalam": {
+        "label": "പേരിന്റെ അവസാന ഭാഗം",
+        "placeholder": "പേരിന്റെ അവസാന ഭാഗം"
+      }
+    }
+  },
+  "last_name": {
+    "type": "input_text",
+    "label": "Last Name",
+    "placeholder": "Last Name",
+    "rules": {
+      "required": true,
+      "min": 3,
+      "max": 30,
+      "datatype": "string"
+    }
+  },
+  "gender": {
+    "label": "Gender/Sex",
+    "type": "input_radio",
+    "values": {
+      "male": 1,
+      "female": 2,
+      "other": 3
+    },
+    "default": 0,
+    "rules": {
+      "required": true
+    }
+  },
+  "mothertongue": {
+    "type": "select",
+    "label": "Mother Tongue",
+    "values": {
+      "select": 1,
+      "English": 2,
+      "Tamil": 3,
+      "Telugu": 4,
+      "Kannada": 5,
+      "Malayalam": 6
+    },
+    "default": 2,
+    "rules": {
+      "required": false
+    }
+  },
+  "dateofbirth": {
+    "type": "input_text",
+    "label": "Date of Birth",
+    "placeholder": "Date of Birth",
+    "rules": {
+      "required": true,
+      "datatype": "date"
+    },
+    "minyear": 3,
+    "format": "dd-mm-YYYY"
+  },
+  "address_line_1": {
+    "type": "input_textarea",
+    "label": "Address Line 1",
+    "placeholder": "Address Line 1",
+    "rules": {
+      "required": true,
+      "min": 3,
+      "max": 30,
+      "datatype": "string_numeric_back_slash_comma"
+    }
+  },
+  "address_line_2": {
+    "type": "string",
+    "label": "Address Line 2",
+    "placeholder": "Enter your address",
+    "rules": {
+      "required": false,
+      "datatype": "string"
+    }
+  },
+  "city": {
+    "type": "input_text",
+    "label": "City",
+    "placeholder": "City",
+    "rules": {
+      "required": true,
+      "min": 3,
+      "max": 30,
+      "datatype": "string_numeric"
+    }
+  },
+  "state": {
+    "type": "select",
+    "label": "State",
+    "placeholder": "State",
+    "values": {
+      "Select": 1,
+      "Karnataka": 2,
+      "Andhra Pradesh": 3,
+      "Telangana": 4,
+      "Kerala": 5,
+      "Maharashtra": 6,
+      "Gujarat": 7,
+      "Tamil Nadu": 8
+    },
+    "rules": {
+      "required": true
+    }
+  },
+  "countrycode": {
+    "type": "select",
+    "label": "CountryCode",
+    "values": {
+      "Tamil": 1,
+      "English": 2
+    },
+    "default": 2,
+    "rules": {
+      "required": false
+    }
+  },
+  "mobileno": {
+    "type": "input_text",
+    "label": "Mobile No",
+    "placeholder": "Mobile No",
+    "rules": {
+      "required": true,
+      "min": 10,
+      "max": 10,
+      "datatype": "number"
+    }
+  },
+  "alternativeno": {
+    "type": "input_text",
+    "label": "Alternative Number",
+    "rules": {
+      "required": false,
+      "min": 10,
+      "max": 10,
+      "datatype": "number"
+    }
+  },
+  "email": {
+    "type": "input_text",
+    "label": "Email",
+    "rules": {
+      "required": false,
+      "min": 5,
+      "max": 50,
+      "datatype": "email"
+    }
+  },
+  "academicyear": {
+    "type": "select",
+    "label": "Academic Year",
+    "values": {
+      "Select": 1,
+      "2022_2023": 2,
+      "2021_2022": 3,
+      "2020_2021": 4,
+      "2019_2020": 5
+    },
+    "default": 1,
+    "rules": {
+      "required": true
+    }
+  },
+  "standard": {
+    "type": "select",
+    "label": "Standard",
+    "values": {
+      "Select": 1,
+      "PRE-KG": 2,
+      "LKG": 3,
+      "UKG": 4,
+      "I": 5,
+      "II": 6,
+      "III": 7,
+      "IV": 8,
+      "V": 9,
+      "VI": 10
+    },
+    "default": 1,
+    "rules": {
+      "required": true
+    }
+  },
+  "section": {
+    "type": "select",
+    "label": "Section",
+    "values": {
+      "Select": 1,
+      "A": 2,
+      "B": 3,
+      "C": 4,
+      "D": 5
+    },
+    "default": 1,
+    "rules": {
+      "required": true
+    }
+  },
+  "parent_mode": {
+    "label": "Parents/Guardian",
+    "type": "input_radio",
+    "values": {
+      "parents": 1,
+      "guardian": 2
+    },
+    "default": 1
+  },
+  "fathername": {
+    "type": "input_text",
+    "label": "Father Name",
+    "placeholder": "Father Name",
+    "rules": {
+      "required": true,
+      "min": 5,
+      "max": 50,
+      "datatype": "string"
+    }
+  },
+  "fatheroccupation": {
+    "type": "input_text",
+    "label": "Father Occupation",
+    "placeholder": "Father Occupation",
+    "rules": {
+      "required": false,
+      "min": 5,
+      "max": 50,
+      "datatype": "string"
+    }
+  },
+  "mothername": {
+    "type": "input_text",
+    "label": "Mother Name",
+    "placeholder": "Mother Name",
+    "rules": {
+      "required": true,
+      "min": 5,
+      "max": 50,
+      "datatype": "string"
+    }
+  },
+  "motheroccupation": {
+    "type": "input_text",
+    "label": "Mother Occupation",
+    "placeholder": "Mother Occupation",
+    "rules": {
+      "required": false,
+      "min": 5,
+      "max": 50,
+      "datatype": "string"
+    }
+  },
+  "guardian_name": {
+    "type": "input_text",
+    "label": "Guardian Name",
+    "placeholder": "Guardian Name",
+    "rules": {
+      "required": false,
+      "min": 5,
+      "max": 50,
+      "datatype": "string"
+    }
+  },
+  "guardianoccupation": {
+    "type": "input_text",
+    "label": "Guardian Occupation",
+    "placeholder": "Guardian Occupation",
+    "rules": {
+      "required": false,
+      "min": 5,
+      "max": 50,
+      "datatype": "string"
+    }
+  }
+}

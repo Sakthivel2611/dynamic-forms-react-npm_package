@@ -1,83 +1,46 @@
-# 🌟 dynamic-forms-react-npm_package
+# Getting Started with Create React App
 
-[![NPM Version](https://img.shields.io/npm/v/dynamic-forms-react-npm_package.svg?style=flat-square)]([https://www.npmjs.com/package/npm-builder-forms])
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A **highly customizable** and **reusable dynamic form component** for React. It generates beautiful forms from JSON schema and supports validations, layout control, and styled-components out of the box.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 📦 NPM Package
+### `npm start`
 
-🔗 [dynamic-forms-react-npm_package on npm]([https://www.npmjs.com/package/npm-builder-forms])
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```bash
-npm install dynamic-forms-react-npm_package
-🚀 Features
-📄 Generate forms from JSON schema
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-🧠 Built-in field validation
+### `npm test`
 
-🧱 Supports input types: text, number, email, select, radio, checkbox, textarea, date
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-🔁 Wizard (multi-step) and single-form modes
+### `npm run build`
 
-🎨 Customizable with styled-components
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-⚛️ Fully typed with TypeScript
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-🧩 Easy to integrate into any React project
-import React from 'react';
-import { DynamicForm } from 'dynamic-forms-react-npm_package';
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-const schema = {
-  title: "User Info",
-  layout: "single", // or "wizard"
-  fields: [
-    { type: "text", label: "Name", name: "name", required: true },
-    { type: "email", label: "Email", name: "email", required: true },
-    { type: "select", label: "Country", name: "country", options: ["India", "USA", "UK"] },
-    { type: "checkbox", label: "Subscribe to newsletter", name: "subscribe" }
-  ]
-};
+### `npm run eject`
 
-export default function App() {
-  return (
-    <DynamicForm
-      schema={schema}
-      onSubmit={(formData) => {
-        console.log("Submitted:", formData);
-      }}
-    />
-  );
-}
-Folder Structure
-bash
-Copy
-Edit
-src/
-├── components/
-│   ├── DynamicForm.tsx
-│   └── fields/               # Input components like TextField, SelectField, etc.
-├── types/                   # TypeScript types/interfaces
-├── utils/                   # Utility functions
-├── index.ts                 # Package entry
-└── styles/
-🛠️ Scripts
-bash
-Copy
-Edit
-npm run build     # Build package using tsc
-npm run test      # Run unit tests
-npm run dev       # Run demo with Vite (optional)
-✨ Customization
-Add custom themes using styled-components
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Extend input types by modifying fields/
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Add validation rules using Yup or your own logic
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-📄 License
-MIT — free to use and modify.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-🙋‍♂️ Feedback / Issues
-If you encounter a bug or want a new feature, feel free to open an issue or pull request.
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
