@@ -1,6 +1,6 @@
 # 🌟 dynamic-forms-react-npm_package
 
-[![NPM Version](https://img.shields.io/npm/v/dynamic-forms-react-npm_package.svg?style=flat-square)]([https://www.npmjs.com/package/dynamic-forms-react-npm_package](https://www.npmjs.com/package/npm-builder-forms))
+[![NPM Version](https://img.shields.io/npm/v/dynamic-forms-react-npm_package.svg?style=flat-square)]([https://www.npmjs.com/package/npm-builder-forms])
 
 A **highly customizable** and **reusable dynamic form component** for React. It generates beautiful forms from JSON schema and supports validations, layout control, and styled-components out of the box.
 
